@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container {
+  padding: 50px;
+  font-family: Arial;
+  background-color: #f4f4f4;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.url-input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+.error-message {
+  color: red;
+}
+
+.image {
+  width: 100%;
+  max-width: 800px;  /* 控制图片的最大宽度 */
+  height: auto;
+  display: block;
+  margin: 0 auto;  /* 将图片居中显示 */
+}
+
+.copy-container {
+  margin-top: 30px;
+}
+
+.copy-btn {
+  background-color: #28A745;
+}
+
+.reset-btn {
+  background-color: #DC3545;
+}
+
+.copy-success-span {
+  margin-left: 10px;
+  color: #28A745;
+}
+
+.base64-container {
+  margin-top: 30px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  overflow-wrap: break-word;
+}
