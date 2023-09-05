@@ -5,7 +5,7 @@ Pass through an image, draw a polygon, then you get a base64 mask image for inpa
 This repository leverages the `lasso-canvas-image` library with React to let users lasso (or select) portions of an image and convert the selected area into base64-webp black-white mask image. 
 
 ## Live Demo
-https://goapi-ai.github.io/Midjourney-Inpainting-UI/
+[https://goapi-ai.github.io/Midjourney-Inpainting-UI/](https://goapi-ai.github.io/Midjourney-Inpainting-UI/?imageUrl=https://raw.githubusercontent.com/Licoy/ChatGPT-Midjourney/master/docs/images/cover.png)
 
 ## Features
 - The application renders the image in a canvas with the non-selected area filled in black and the lasso-selected area rendered in white. 
