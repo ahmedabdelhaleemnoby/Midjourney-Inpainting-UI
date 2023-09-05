@@ -8,7 +8,7 @@ import React from 'react';
 
   static getDerivedStateFromError(error) {
     // 更新 state 使下一次渲染能够显示出错的fallback UI
-    return { hasError: true };
+    return { hasError: true }
   }
 
   componentDidCatch(error, errorInfo) {

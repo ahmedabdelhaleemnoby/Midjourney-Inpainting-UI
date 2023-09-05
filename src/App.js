@@ -136,7 +136,7 @@ function App() {
         if (document.body.contains(imageRef.current)) {
           createLassoCanvas();
         }
-      }, 0);
+      }, 0)
     }
   }, [imgLoaded, imageUrl]); // Run the effect again if imgLoaded changes.
 

@@ -26,7 +26,7 @@ Follow the below steps to get the app running on your local machine.
 
 2. Navigate into the cloned repository:
     ```
-    cd image-lasso-to-webp
+    cd Midjourney-Inpainting-UI
     ```
 3. Install the necessary dependencies:
     ```
