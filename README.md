@@ -4,6 +4,9 @@ A simple tool to replicate Midjourney's inpainting(aka. Vary(Region)) modal inte
 Pass through an image, draw a polygon, then you get a base64 mask image for inpainting.
 This repository leverages the `lasso-canvas-image` library with React to let users lasso (or select) portions of an image and convert the selected area into base64-webp black-white mask image. 
 
+## Live Demo
+https://goapi-ai.github.io/Midjourney-Inpainting-UI/
+
 ## Features
 - The application renders the image in a canvas with the non-selected area filled in black and the lasso-selected area rendered in white. 
 - It supports loading images by entering the image URL directly into the application’s URL input box.
@@ -11,9 +14,6 @@ This repository leverages the `lasso-canvas-image` library with React to let use
 - The selected white area of the image is then converted into base64-webp format.
 - User will be able to see the generated base64 string and copy it to clipboard.
 - Mobile compatible(WIP)
-
-## Live Demo
-
 
 ## Installation & Running Locally
 
